@@ -33,7 +33,7 @@ export class CategoriesController {
   @ApiQuery({
     type: PaginationSwaggerDto,
   })
-  findAll(@Query('page') page: string, @Query('limit') limit: string) {
+  findAll(@Query('page') page = '1', @Query('limit') limit = '10') {
     return this.categoriesService.findAll(Number(page), Number(limit));
   }
 
