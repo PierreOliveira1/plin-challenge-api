@@ -37,4 +37,6 @@ model Menu {
   id       String    @id @default(uuid()) @map("_id")
   shift    String    @unique
   products Product[]
+
+  @@map("menu")
 }
