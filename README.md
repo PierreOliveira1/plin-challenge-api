@@ -26,6 +26,11 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Demo
+
+Demo: [Api Demo](https://challange-plin-api.onrender.com)
+Docs: [Api Docs](https://challange-plin-api.onrender.com/api-docs)
+
 ## Installation
 
 ```bash
@@ -71,4 +76,5 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
 # plin-challenge-api
